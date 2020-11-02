@@ -1,0 +1,83 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Dark-",
+    "type": "dark",
+    "include": "./default/dark_plus.json",
+    "colors": {
+        "tab.activeBorderTop": "#007ACC",
+        "panelTitle.activeBorder": "#007ACC",
+        "activityBar.background": "#252526",
+        "statusBar.noFolderBackground": "#303030",
+        "statusBar.background": "#2c2c2d",
+        "tab.inactiveBackground": "#252526",
+        "activityBar.foreground": "#A6A6A6",
+        "sideBar.foreground": "#A6A6A6",
+        "statusBar.foreground": "#A6A6A6",
+        "editorLineNumber.foreground": "#444",
+        "editor.lineHighlightBackground": "#111",
+        "editor.selectionBackground": "#007ACC40",
+        "editor.selectionHighlightBackground": "#ADD6FF10",
+        "editor.selectionHighlightBorder": "#ADD6FF10",
+        "editor.foreground": "#BBB"
+    },
+    "tokenColors": [
+        {
+            "name": "comments base",
+            "settings": {
+                "foreground": "#666",
+                "fontStyle": "italic",
+            },
+            "scope": [
+                "comment",
+                "comment.block.documentation.phpdoc.php punctuation",
+            ]
+        },
+        {
+            "name": "comments highlight",
+            "settings": {
+                "foreground": "#777"
+            },
+            "scope": [
+                "comment.block.documentation.js punctuation.definition.comment",
+                "comment.block.documentation.js punctuation.definition.block",
+                "comment.block.documentation.js punctuation.definition.bracket",
+                "comment.block.documentation.js entity.name.type.instance.jsdoc",
+                "comment.block.documentation.js storage.type.class.jsdoc",
+                "comment.block.documentation.js variable.other.jsdoc",
+                "comment.block.documentation.phpdoc.php punctuation.definition.comment",
+                "comment.block.documentation.phpdoc.php support",
+                "comment.block.documentation.phpdoc.php keyword",
+                "comment.block.documentation.phpdoc.php support.class",
+            ]
+        },
+        {
+            "name": "variables",
+            "settings": {
+                "foreground": "#CEF"
+            },
+            "scope": [
+                "variable"
+            ]
+        },
+        {
+            "name": "punctuation & operators",
+            "settings": {
+                "foreground": "#BBB"
+            },
+            "scope": [
+                "keyword.operator",
+                "punctuation.separator",
+                "punctuation.definition",
+            ]
+        },
+        {
+            "name": "exception for 'this' punctuation",
+            "settings": {
+                "foreground": "#569cd6"
+            },
+            "scope": [
+                "variable.language.this punctuation.definition",
+            ]
+        },
+    ],
+}

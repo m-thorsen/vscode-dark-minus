@@ -1,0 +1,28 @@
+{
+    "name": "vscode-dark-minus",
+    "displayName": "Dark-",
+    "description": "A VSCode theme",
+    "version": "0.0.1",
+    "publisher": "m-thorsen",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark minus",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-minus.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/m-thorsen/vscode-dark-minus"
+    }
+}
