@@ -1,8 +1,8 @@
 {
     "name": "vscode-dark-minus",
-    "displayName": "Dark-",
+    "displayName": "Dark -",
     "description": "A VSCode theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "m-thorsen",
     "license": "MIT",
     "engines": {
@@ -15,7 +15,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dark minus",
+                "label": "Dark-",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-minus.json"
             }

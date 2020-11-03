@@ -18,7 +18,6 @@
         "editor.selectionBackground": "#007ACC40",
         "editor.selectionHighlightBackground": "#ADD6FF10",
         "editor.selectionHighlightBorder": "#ADD6FF10",
-        "editor.foreground": "#BBB"
     },
     "tokenColors": [
         {
@@ -29,6 +28,7 @@
             },
             "scope": [
                 "comment",
+                "punctuation.definition.comment.json",
                 "comment.block.documentation.phpdoc.php punctuation",
             ]
         },
@@ -44,23 +44,37 @@
                 "comment.block.documentation.js entity.name.type.instance.jsdoc",
                 "comment.block.documentation.js storage.type.class.jsdoc",
                 "comment.block.documentation.js variable.other.jsdoc",
-                "comment.block.documentation.phpdoc.php punctuation.definition.comment",
+                "comment.block.documentation.phpdoc.php punctuation.definition",
+                "comment.block.documentation.phpdoc.php punctuation.separator",
                 "comment.block.documentation.phpdoc.php support",
                 "comment.block.documentation.phpdoc.php keyword",
                 "comment.block.documentation.phpdoc.php support.class",
+                "punctuation.definition.comment",
             ]
         },
         {
             "name": "variables",
             "settings": {
-                "foreground": "#CEF"
+                "foreground": "#BDE"
             },
             "scope": [
-                "variable"
+                "variable",
+                "punctuation.definition.variable",
+                "entity.other.alias",
+
             ]
         },
         {
-            "name": "punctuation & operators",
+            "name": "deprecated attributes are attributes too",
+            "settings": {
+                "foreground": "#9CDCFE"
+            },
+            "scope": [
+                "invalid.deprecated.entity.other.attribute-name"
+            ]
+        },
+        {
+            "name": "braces, punctuation & operators",
             "settings": {
                 "foreground": "#BBB"
             },
@@ -68,15 +82,17 @@
                 "keyword.operator",
                 "punctuation.separator",
                 "punctuation.definition",
+                "punctuation.terminator",
+                "meta.brace",
             ]
         },
         {
-            "name": "exception for 'this' punctuation",
+            "name": "don't change 'this' punctuation",
             "settings": {
                 "foreground": "#569cd6"
             },
             "scope": [
-                "variable.language.this punctuation.definition",
+                "variable.language.this punctuation.definition.variable",
             ]
         },
     ],
